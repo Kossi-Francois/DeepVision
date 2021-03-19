@@ -1,0 +1,14 @@
+
+
+#
+
+
+#modules needed
+
+flask
+
+tensorflow >= 2.0.0
+
+numpy
+
+json
