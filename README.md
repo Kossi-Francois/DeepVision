@@ -1,4 +1,4 @@
 # server
 A server for tensorflow image captioning api
 
-a api wich will be host on python anywhere
+a api wich will be hosted on python anywhere
