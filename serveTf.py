@@ -1,19 +1,30 @@
 #serving TF
-import tensorflow as tf
 
-import numpy as np
+
+
+
 
 from flask import Flask, jsonify, request,make_response
 #from flask_cors import CORS
 
-import base64
-import json
-from io import BytesIO
 
-from tensorflow.keras.preprocessing import image
+from saveModel import*
 
 
-from PIL import Image
+#import json
+
+#import tensorflow as tf
+#import numpy as np
+#from PIL import Image
+
+
+#
+# import base64
+#
+# from io import BytesIO
+#
+
+
 
 
 
@@ -36,18 +47,24 @@ def image_classifier():
     # img = image.img_to_array(image.load_img(BytesIO(base64.b64decode(request.form['b64'])),
     #                                         target_size=(224, 224))) / 255.
 
-    file = request.files['b64']
-    print(file)
-    # Read the image via file.stream
-    img = Image.open(file)
+    file = request.files['image']
+
+
+    class_name = executeModel(file)
 
 
 
-
-    return jsonify(name = 'kossi')
+    return jsonify(result_class = class_name)
 
 
 
 if __name__ == "__main__":
     app.run(host= '0.0.0.0')
     #app.run(host='0.0.0.0',threaded=True)
+
+
+
+
+
+
+
