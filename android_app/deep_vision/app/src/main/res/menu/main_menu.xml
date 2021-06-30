@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:visible="true" >
+
+        <item android:id="@+id/menu_option"
+            android:title="Options"
+            app:showAsAction="always"/>
+
+        <item android:id="@+id/camera_activity"
+            android:title="Camera"
+            app:showAsAction="always"
+            />
+
+    </group>
+
+
+
+
+</menu>

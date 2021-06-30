@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">DeepVision</string>
+
+
+    <string-array name="Language_arrays">
+        <item>English</item>
+        <item>Chinese</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Hindi</item>
+        <item>Russian</item>
+        <item>Spanish</item>
+        <item>Portuguese</item>
+        <item>Arabic</item>
+    </string-array>
+
+
+</resources>
+

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        />
+
+    <EditText
+        android:visibility="gone"
+        android:textColor="@color/white"
+        android:text="www.google.com"
+        android:background="@color/black"
+        android:inputType="text"
+        android:id="@+id/editUrl"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+
+    <Button
+        android:text="lunch web"
+       android:layout_below="@+id/editUrl"
+        android:id="@+id/lanchWeb"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_margin="1dp"
+            android:text="on Demand"
+            android:id="@+id/start_service"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_margin="1dp"
+            android:id="@+id/start_onLive"
+            android:text="on Live"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+
+
+
+
+        <Button
+            android:visibility="gone"
+            android:text="stop service"
+            android:id="@+id/stop_service"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
