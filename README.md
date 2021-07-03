@@ -3,6 +3,19 @@ A image captioning and OCR app with audio feedback and voice control.
 With image captioning, this application can help visually impaired people, or help to learn a new language ...
 
 
+
+
+
+## Demo
+Video screenshot of the app running, there are gifs but on the original video we can hear the audio feedback.
+ 
+![alt text](https://github.com/Kossi-Francois/server/blob/main/demo_people_riding_bikes.gif?raw=true)
+![alt text](https://github.com/Kossi-Francois/server/blob/main/demo_sheep.gif?raw=true)
+![alt text](https://github.com/Kossi-Francois/server/blob/main/demo_supermarket.gif?raw=true)
+![alt text](https://github.com/Kossi-Francois/server/blob/main/demo_pizza.gif?raw=true)
+
+
+
 How to launch the application
 
 This project contains two parts, the application (android) and a server (Flask)
@@ -28,14 +41,3 @@ You have two buttons: *describe* for image captioning and *read* for OCR.
   
 In options you have other options like "Glasses camera address" to enter the IP address of a camera and use it instead of the smartphone camera.
 you can also activate the voice command which currently supports French and English, so instead of clicking on *describe* or *read* you can say *describe* or *read*.
-
-
-## Demo
-Video screenshot of the app running, there are gifs but on the original video we can hear the audio feedback.
- 
-![alt text](https://github.com/Kossi-Francois/server/blob/main/demo_people_riding_bikes.gif?raw=true)
-![alt text](https://github.com/Kossi-Francois/server/blob/main/demo_sheep.gif?raw=true)
-![alt text](https://github.com/Kossi-Francois/server/blob/main/demo_supermarket.gif?raw=true)
-![alt text](https://github.com/Kossi-Francois/server/blob/main/demo_pizza.gif?raw=true)
-
-
