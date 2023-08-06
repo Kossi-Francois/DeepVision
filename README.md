@@ -1,6 +1,6 @@
 # DeepVision
 
-<img src="/deepvision_baniere_playstore.png" width="300">
+<img src="/deepvision_baniere_playstore.png" width="100%">
 
 A image captioning and OCR app with audio feedback and voice control.
 With image captioning, this application can help visually impaired people, or help to learn a new language ...
@@ -11,8 +11,10 @@ With image captioning, this application can help visually impaired people, or he
 
 ## Demo
 Video screenshot of the app running, there are gifs but on the original video we can hear the audio feedback.
+
+<img src="/demo_people_riding_bikes.gif?raw=true" width="50%">
  
-![alt text](https://github.com/Kossi-Francois/server/blob/main/demo_people_riding_bikes.gif?raw=true|width=100px)
+![alt text](https://github.com/Kossi-Francois/server/blob/main/demo_people_riding_bikes.gif?raw=true)
 ![alt text](https://github.com/Kossi-Francois/server/blob/main/demo_sheep.gif?raw=true)
 ![alt text](https://github.com/Kossi-Francois/server/blob/main/demo_supermarket.gif?raw=true)
 ![alt text](https://github.com/Kossi-Francois/server/blob/main/demo_pizza.gif?raw=true)
