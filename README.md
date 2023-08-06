@@ -1,4 +1,7 @@
 # DeepVision
+
+<img src="/deepvision_baniere_playstore.png" width="300">
+
 A image captioning and OCR app with audio feedback and voice control.
 With image captioning, this application can help visually impaired people, or help to learn a new language ...
 
