@@ -13,10 +13,10 @@ With image captioning, this application can help visually impaired people, or he
 Video screenshot of the app running, there are gifs but on the original video we can hear the audio feedback.
 
 <p float="left" align="middle">
- <img src="/demo_people_riding_bikes.gif?raw=true" width="22%">
- <img src="/demo_sheep.gif?raw=true" width="22%">
- <img src="/demo_supermarket.gif?raw=true" width="22%">
- <img src="/demo_pizza.gif?raw=true" width="22%">
+ <img src="/demo_people_riding_bikes.gif?raw=true" width="23%">
+ <img src="/demo_sheep.gif?raw=true" width="23%">
+ <img src="/demo_supermarket.gif?raw=true" width="23%">
+ <img src="/demo_pizza.gif?raw=true" width="23%">
 </p>
  
 
