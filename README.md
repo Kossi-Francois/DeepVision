@@ -12,18 +12,13 @@ With image captioning, this application can help visually impaired people, or he
 ## Demo
 Video screenshot of the app running, there are gifs but on the original video we can hear the audio feedback.
 
-<p float="left">
- <img src="/demo_people_riding_bikes.gif?raw=true" width="25%">
- <img src="/demo_sheep.gif?raw=true" width="25%">
- <img src="/demo_supermarket.gif?raw=true" width="25%">
- <img src="/demo_pizza.gif?raw=true" width="25%">
+<p float="left" align="middle">
+ <img src="/demo_people_riding_bikes.gif?raw=true" width="22%">
+ <img src="/demo_sheep.gif?raw=true" width="22%">
+ <img src="/demo_supermarket.gif?raw=true" width="22%">
+ <img src="/demo_pizza.gif?raw=true" width="22%">
 </p>
  
-![alt text](https://github.com/Kossi-Francois/server/blob/main/demo_people_riding_bikes.gif?raw=true)
-![alt text](https://github.com/Kossi-Francois/server/blob/main/demo_sheep.gif?raw=true)
-![alt text](https://github.com/Kossi-Francois/server/blob/main/demo_supermarket.gif?raw=true)
-![alt text](https://github.com/Kossi-Francois/server/blob/main/demo_pizza.gif?raw=true)
-
 
 
 How to launch the application
